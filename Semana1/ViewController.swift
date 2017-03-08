@@ -9,20 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet var buttonBorder: UIButton?
-    @IBOutlet var buttonCorner: UIButton?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        buttonBorder?.layer.borderWidth = 1
-        buttonBorder?.layer.borderColor = UIColor.black.cgColor
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         
-        buttonCorner?.layer.borderWidth = 1
-        buttonCorner?.layer.borderColor = UIColor.black.cgColor
-        buttonCorner?.layer.cornerRadius = 10
-        
+        view.addGestureRecognizer(tap)
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,6 +23,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    //Calls this function when the tap is recognized.
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    }
 }
 
