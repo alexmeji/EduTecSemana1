@@ -10,9 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet var imageSet: UIImageView?
+    @IBOutlet var bags: UIButton?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        imageSet?.layer.cornerRadius = (imageSet?.frame.size.height)!/2
+        imageSet?.clipsToBounds = true
+        bags?.layer.cornerRadius = (bags?.frame.size.height)!/2
+        
     }
 
     override func didReceiveMemoryWarning() {

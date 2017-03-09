@@ -12,6 +12,7 @@
 		208318091E707A0800F8F796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208318071E707A0800F8F796 /* Main.storyboard */; };
 		2083180B1E707A0800F8F796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2083180A1E707A0800F8F796 /* Assets.xcassets */; };
 		2083180E1E707A0900F8F796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2083180C1E707A0800F8F796 /* LaunchScreen.storyboard */; };
+		208318181E70E31F00F8F796 /* 12994387_10154160117659703_7448820334485931551_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 208318171E70E31F00F8F796 /* 12994387_10154160117659703_7448820334485931551_n.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2083180A1E707A0800F8F796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2083180D1E707A0800F8F796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2083180F1E707A0900F8F796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		208318171E70E31F00F8F796 /* 12994387_10154160117659703_7448820334485931551_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12994387_10154160117659703_7448820334485931551_n.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		208318021E707A0800F8F796 /* Semana1 */ = {
 			isa = PBXGroup;
 			children = (
+				208318171E70E31F00F8F796 /* 12994387_10154160117659703_7448820334485931551_n.jpg */,
 				208318031E707A0800F8F796 /* AppDelegate.swift */,
 				208318051E707A0800F8F796 /* ViewController.swift */,
 				208318071E707A0800F8F796 /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			files = (
 				2083180E1E707A0900F8F796 /* LaunchScreen.storyboard in Resources */,
 				2083180B1E707A0800F8F796 /* Assets.xcassets in Resources */,
+				208318181E70E31F00F8F796 /* 12994387_10154160117659703_7448820334485931551_n.jpg in Resources */,
 				208318091E707A0800F8F796 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
